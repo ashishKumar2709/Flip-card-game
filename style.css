@@ -1,0 +1,38 @@
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 5px;
+    padding: 5px;
+    height: 500px;
+    width: 800px;
+    padding-bottom: 50px;
+}
+.contanier{
+    background-color:slategray;
+    border: 5px solid royalblue;
+    display: grid;
+    max-width: 1000px;
+    height: 650px;
+    
+    align-content: center;
+    justify-content: center;
+}
+
+.name{
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:xx-large;
+    font-weight:bolder;
+    font-style: italic;
+    text-align: center;
+    position: relative;
+    bottom: 10px;
+    
+}
+
+#result{
+    position: absolute;
+    top: 10px;
+    justify-content: center;
+
+}
